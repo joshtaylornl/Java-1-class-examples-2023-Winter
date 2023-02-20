@@ -41,8 +41,8 @@ public class Product {
     }
 
     /**
-     * Set the product ID. ID must be positive. If ID is negative, value will not be changed.
-     * @param id product ID (must be greater than 0)
+     *
+     * @param id
      */
     public void setId(int id){
         if(id > 0){

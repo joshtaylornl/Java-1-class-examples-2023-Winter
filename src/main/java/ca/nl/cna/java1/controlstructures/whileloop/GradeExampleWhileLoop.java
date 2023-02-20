@@ -1,4 +1,4 @@
-package ca.nl.cna.java1.controlstructures;
+package ca.nl.cna.java1.controlstructures.whileloop;
 
 import java.util.Scanner;
 

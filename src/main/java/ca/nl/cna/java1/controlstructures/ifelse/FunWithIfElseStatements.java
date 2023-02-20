@@ -1,21 +1,25 @@
-package ca.nl.cna.java1.controlstructures;
+package ca.nl.cna.java1.controlstructures.ifelse;
 
 import java.util.Scanner;
 
 /**
- * Simple application to demonstrate IF statements
- * <p> <code> <pre>
- * Structure:
+ * Simple application to demonstrate ELSE statements
+ * <p><pre>
+ *  Structure:
+ *     <code>
  *  if(condition){
  *      //execute if condition is true
+ *  } else {
+ *      //execute if condition is false
  *  }
- * </pre> </code> </p>
+ *      </code>
+ *  </pre></p>
  * @author josh.taylor
  */
-public class FunWithIfStatements {
+public class FunWithIfElseStatements {
 
     public static void main(String[] args) {
-        System.out.println("Fun with ... IF Statements!");
+        System.out.println("Fun with ... IF ELSE Statements!");
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
@@ -23,11 +27,10 @@ public class FunWithIfStatements {
 
         if(x % 2 == 0){
             System.out.println("The number is EVEN!");
-        }
-
-        if(x % 2 != 0 ){
+        } else {
             System.out.println("The number is ODD!");
         }
+
     }
 
 }

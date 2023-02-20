@@ -1,4 +1,4 @@
-package ca.nl.cna.java1.controlstructures;
+package ca.nl.cna.java1.controlstructures.forloop;
 
 import java.util.Random;
 
@@ -14,8 +14,9 @@ public class FunWithRandoms {
         Random random = new Random();
 
         //Generate 10 random integers between 1 and 100 to simulate the class marks
+        System.out.println("Random dice style roll: ");
         for (int i = 0; i < 100; i++) {
-            System.out.printf("%d, ", random.nextInt(10));
+            System.out.printf("%d, ", random.nextInt(6) + 1);
         }
 
         System.out.println("Random ints\n");
