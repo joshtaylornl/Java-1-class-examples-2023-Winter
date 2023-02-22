@@ -1,7 +1,5 @@
-package ca.nl.cna.java1.assignmenthelp.a1;
-
 /**
- *
+ * Assignment 1 Help </br>
  * //TODO Question 1) Update the Account Class according to the assignment description
  *
  * //TODO Question 2) Update the Car class according to the assignment description
@@ -36,3 +34,4 @@ package ca.nl.cna.java1.assignmenthelp.a1;
  *
  *
  */
+package ca.nl.cna.java1.assignmenthelp.a1;
