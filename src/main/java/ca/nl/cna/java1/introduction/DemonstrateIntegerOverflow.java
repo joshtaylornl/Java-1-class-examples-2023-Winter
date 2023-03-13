@@ -13,16 +13,16 @@ public class DemonstrateIntegerOverflow {
         System.out.println("Fun with Comparisons!");
         Scanner input = new Scanner(System.in);
 
-        int x = Integer.MAX_VALUE;
-        System.out.printf("Max integer value: %d", x);
-
-        System.out.println("\nEnter a value to add to the Max:");
-        int y = input.nextInt();
-
-        System.out.println("Let's add the numbers");
-
-        int sum = x + y;
-        System.out.printf("Sum of %d and %d is: %d", x, y, sum);
+//        int x = Integer.MAX_VALUE;
+//        System.out.printf("Max integer value: %d", x);
+//
+//        System.out.println("\nEnter a value to add to the Max:");
+//        int y = input.nextInt();
+//
+//        System.out.println("Let's add the numbers");
+//
+//        int sum = x + y;
+//        System.out.printf("Sum of %d and %d is: %d", x, y, sum);
 
         //Calculating max ints in a loop
         int z = 1;
@@ -32,6 +32,8 @@ public class DemonstrateIntegerOverflow {
         for (int i = 0; i < 4*8; i++) {
             System.out.printf("\nz: %d", z);
             z *= 2;
+
+            System.out.printf(" -> 2 ^ %d = %.0f ", i, Math.pow(2, i));
         }
 
     }
